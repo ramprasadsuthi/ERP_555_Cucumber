@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
-		features = {"Features//HomePageModule.feature"},
+		features = {"Features//LoginModule.feature"},
 		glue={"stepDefinition"},
 	    dryRun=false,
 	    tags= "@smokeTest",
